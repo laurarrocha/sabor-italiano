@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* HEADER */
+
+header {
+    background: #8B0000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* BANNER */
+
+.banner {
+    height: 300px;
+    background: url("https://images.unsplash.com/photo-1513104890138-7c749659a591");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* BOTÃO WHATSAPP */
+
+.botao {
+    background: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* CARDAPIO */
+
+.cardapio {
+    padding: 40px;
+    text-align: center;
+}
+
+.pratos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.prato {
+    background: white;
+    width: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.prato img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.prato h3 {
+    margin: 10px;
+}
+
+.prato p {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.prato span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #8B0000;
+    font-size: 18px;
+}
+
+/* BOTÃO PEDIR */
+
+.pedido {
+    display: inline-block;
+    margin-top: 10px;
+    background: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    background: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
